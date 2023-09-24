@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="blur">
+        </div>
+        <div class="player">
+
+            <div class="player-bg"></div>
+
+            <div class="player-title">
+                <h1 class="trek-title">Calm down</h1>
+                <h2 class="trek-executor">DJ Goja</h2>
+            </div>
+
+            <div class="player-controls">
+                <audio class="current-trek" src="./assets/sounds/DJ Goja.mp3"></audio>
+                <button class="play-prev"></button>
+                <button class="play-btn"></button>
+                <button class="play-next"></button>
+            </div>
+
+            <div class="time">
+                <div class="current-time"></div>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+                <div class="duration-time"></div>
+            </div>
+
+            <div class="volume">
+                <div class="sound-on"></div> 
+                <div class="volume-bar">
+                  <div class="progress-volume"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+   
+    
+
+    <script type="module" src="./playList.js"></script>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>

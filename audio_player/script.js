@@ -1,5 +1,4 @@
 import playList from './playList.js';
-// console.log(playList);
 
 const audio = document.querySelector('.current-trek');
 const playBtn = document.querySelector('.play-btn');
@@ -11,7 +10,6 @@ const title = document.querySelector('.trek-title');
 const executor = document.querySelector('.trek-executor');
 
 let playNum = 0;
-// console.log(playList[playNum].src);
 
 // todo start sound
 function playAudio() {
